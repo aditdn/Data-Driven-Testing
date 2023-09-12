@@ -49,4 +49,14 @@
       <initValue>'31-12-2017'</initValue>
       <name>TglLahirNegatif</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'contohmail.com'</initValue>
+      <name>EmailNegatif</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'test12'</initValue>
+      <name>KonfirmasiSandiNegatif</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
