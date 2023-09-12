@@ -21,7 +21,7 @@ WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
 
-WebUI.navigateToUrl('https://demo-app.online/')
+WebUI.navigateToUrl(GlobalVariable.Url)
 
 WebUI.click(findTestObject('Website A/Homepage/Btn_buat akun'))
 

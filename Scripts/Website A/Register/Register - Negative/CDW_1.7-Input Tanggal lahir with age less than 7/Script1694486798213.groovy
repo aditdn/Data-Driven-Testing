@@ -19,21 +19,21 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://demo-app.online/')
+WebUI.navigateToUrl(GlobalVariable.Url)
 
 WebUI.click(findTestObject('Website A/Homepage/Btn_buat akun'))
 
-WebUI.setText(findTestObject('Website A/Buat akun page/Field_nama'), 'test123')
+WebUI.setText(findTestObject('Website A/Buat akun page/Field_nama'), GlobalVariable.Nama)
 
-WebUI.setText(findTestObject('Website A/Buat akun page/Field_tanggal lahir'), '31-12-2017')
+WebUI.setText(findTestObject('Website A/Buat akun page/Field_tanggal lahir'), GlobalVariable.TglLahirNegatif)
 
-WebUI.setText(findTestObject('Website A/Buat akun page/Field_E-Mail'), 'contoh@mail.com')
+WebUI.setText(findTestObject('Website A/Buat akun page/Field_E-Mail'), GlobalVariable.Email)
 
-WebUI.setText(findTestObject('Website A/Buat akun page/Field_Whatsapp'), '1234567891')
+WebUI.setText(findTestObject('Website A/Buat akun page/Field_Whatsapp'), GlobalVariable.Whatsapp)
 
-WebUI.setEncryptedText(findTestObject('Website A/Buat akun page/Field_Kata Sandi'), 'RigbBhfdqOBGNlJIWM1ClA==')
+WebUI.setText(findTestObject('Website A/Buat akun page/Field_Kata Sandi'), GlobalVariable.KataSandi)
 
-WebUI.setEncryptedText(findTestObject('Website A/Buat akun page/Field_Konfirmasi kata sandi'), 'RigbBhfdqOBGNlJIWM1ClA==')
+WebUI.setText(findTestObject('Website A/Buat akun page/Field_Konfirmasi kata sandi'), GlobalVariable.KonfirmasiSandi)
 
 WebUI.click(findTestObject('Website A/Buat akun page/Checkbox_Daftar'))
 
