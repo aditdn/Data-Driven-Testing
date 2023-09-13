@@ -21,25 +21,29 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.Url)
 
-WebUI.click(findTestObject('Website A/Homepage/Btn_buat akun'))
+WebUI.click(findTestObject('Object Repository/Website A/Homepage/Btn_Masuk (1)'))
 
-WebUI.setText(findTestObject('Website A/Buat akun page/Field_nama'), GlobalVariable.Nama)
+WebUI.setText(findTestObject('Object Repository/Website A/Masuk page/Field_Email (1)'), GlobalVariable.EmailLogin)
 
-WebUI.setText(findTestObject('Website A/Buat akun page/Field_tanggal lahir'), GlobalVariable.TglLahirPositif)
+WebUI.setText(findTestObject('Object Repository/Website A/Masuk page/Field_Kata Sandi (1)'), GlobalVariable.PasswordLogin)
 
-WebUI.setText(findTestObject('Website A/Buat akun page/Field_E-Mail'), GlobalVariable.Email)
+WebUI.click(findTestObject('Object Repository/Website A/Masuk page/Btn_Login (1)'))
 
-WebUI.setText(findTestObject('Website A/Buat akun page/Field_Whatsapp'), GlobalVariable.Whatsapp)
+WebUI.click(findTestObject('Object Repository/Website A/Homepage/Nav_profile'))
 
-WebUI.setText(findTestObject('Website A/Buat akun page/Field_Kata Sandi'), GlobalVariable.KataSandi)
+WebUI.click(findTestObject('Object Repository/Website A/Homepage/Btn_My Account (1)'))
 
-WebUI.setText(findTestObject('Website A/Buat akun page/Field_Konfirmasi kata sandi'), GlobalVariable.KonfirmasiSandi)
+WebUI.click(findTestObject('Object Repository/Website A/Page_Coding.ID - Dashboard/Btn_Profil'))
 
-WebUI.click(findTestObject('Website A/Buat akun page/Checkbox_Daftar'))
+WebUI.click(findTestObject('Object Repository/Website A/Page_Coding.ID - Dashboard/Nav_Edit Profile'))
 
-WebUI.click(findTestObject('Website A/Buat akun page/Btn_Daftar'))
+WebUI.uploadFile(findTestObject('Website A/Edit profile page/img_Invoice_avatar-icon'), GlobalVariable.FilePath)
 
-WebUI.verifyElementText(findTestObject('Website A/Buat akun page/Text_Verifikasi Email'), 'Verifikasi Email')
+WebUI.click(findTestObject('Object Repository/Website A/Page_Coding.ID - Dashboard/Btn_Save Changes'))
+
+WebUI.verifyElementText(findTestObject('Object Repository/Website A/Page_Coding.ID - Dashboard/Text_Berhasil'), 'Berhasil')
+
+WebUI.click(findTestObject('Object Repository/Website A/Page_Coding.ID - Dashboard/Btn_OK'))
 
 WebUI.closeBrowser()
 
