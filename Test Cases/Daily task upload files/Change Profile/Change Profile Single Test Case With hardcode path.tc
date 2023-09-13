@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>New Test Case</name>
+   <name>Change Profile Single Test Case With hardcode path</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>336215b4-0093-4f20-8f7c-4391ec8a6dd7</testCaseGuid>
+   <testCaseGuid>67b949b3-1f8d-4eaf-8b28-1dcc89e0db21</testCaseGuid>
 </TestCaseEntity>
