@@ -59,4 +59,24 @@
       <initValue>'test12'</initValue>
       <name>KonfirmasiSandiNegatif</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'dwinugrahaaditya29@gmail.com'</initValue>
+      <name>EmailLogin</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Adittest'</initValue>
+      <name>PasswordLogin</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Adittest'</initValue>
+      <name>KonfirmasiPassLogin</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'D:\\test_upload.jpg'</initValue>
+      <name>FilePath</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
